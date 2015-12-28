@@ -1,4 +1,4 @@
-package com.paresh.gridviewexample;
+ package com.paresh.gridviewexample;
 
 import java.util.ArrayList;
 
@@ -33,6 +33,8 @@ public class GridViewExampleActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main); 
+		
+		System.out.println("fisrt");
 
 		// prepared arraylist and passed it to the Adapter class
 
